@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Gloria+Hallelujah&display=swap:100,200,300,400,500,600,700');
+/*-----------------------------------------------Colours*/
+
+.bg-color-name-title {
+    background-color: black;
+}
+
+.nav-home {
+    background-color: red;
+}
+
+.nav-about {
+    background-color: red;
+}
+
+.nav-theband {
+    background-color: red;
+}
+
+.nav-tickets {
+    background-color: red;
+}
+
+.bg-section-color {
+    background-color: black;
+    padding-top: 20px;
+}
+
+/*-----------------------------------------------Special paddings/margins/text*/
+
+h1,h2,h3,h4,h5 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: 'Bangers', cursive;
+    color: black;
+}
+
+
+/*-----------------------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.logo {
+    background: url("../images/the band.jpg");
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    
+}
+
+.band {
+    font-family: 'Bangers', cursive;          
+    color: goldenrod;
+    font-size: 100px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.quote {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+} 
+
+
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: black;
+    font-size: 26px;
+    
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+/*-----------------------------------------------footer*/
+
+footer {
+    background-color: red;
+    color: black;
+    min-height: 120px;
+    margin: 0;
+}
+
+footer i {
+    font-size: 40px;
+}
+
+.icon {
+   padding-top: 22px;
+    display: block;
+    color: black;
+    font-size: 26px;
+    font-family: 'Bangers', cursive;
+}
+
+span {
+    font-family: 'Bangers', cursive;
+    text-decoration: none;
+
+}
+
+.list {
+    text-align: center;
+     font-family: 'Bangers', cursive;
+     background-color: black;
+     margin: 0;
+     padding: 50px;
+     width: 100%;
+     color: goldenrod;
+     text-decoration: none;
+    
+}
+
+.pics {
+   max-width: 100%;
+}
+
+h3 {
+  font-family: 'Bangers', cursive;
+  color: goldenrod;
+  text-align: center;
+}
+
+p {
+    font-family: 'Bangers', cursive;
+    color: goldenrod;
+}
+
+.col-xs-12 {
+    text-align: center;
+}
+
+.history {
+    padding: 50px;
+    letter-spacing: 3px;
+}
+
+li a {
+    color: red;
+    text-decoration: none;
+}
